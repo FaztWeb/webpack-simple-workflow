@@ -6,5 +6,4 @@ A tipical website needs:
 
 ## Considerations
 - the entry of our files is inside the folder: `src`
-- the `` generates a folder called `dist`
 - the webpack folder is to setting webpack
