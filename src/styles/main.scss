@@ -1,12 +1,30 @@
 $bg-dark: #0f0f0f;
+$bg-light: #f5f6fa;
+
+$text-color: $bg-dark;
 
 body {
-    background: $bg-dark;
-    color: #ffffff;
+  padding: 10rem;
+  text-align: center;
+  background: $bg-light;
+  color: $text-color;
+  font-family: "Roboto", sans-serif;
 }
 
 .bg-white {
-    background: #ffffff;
-    color: #0f0f0f;
-    padding: 40px;
+  background: #ffffff;
+  color: #0f0f0f;
+  padding: 40px;
+}
+
+.newsletter-input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.newsletter-btn {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background: beige;
+  border: 1px solid #ccc;
 }
