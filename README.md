@@ -8,6 +8,23 @@ A tipical website needs:
 - Import and install Javascript files (like npm modules)
 - Custom Fonts
 
+## Installation
+
+Install dependencies
+```
+npm install
+```
+
+To start the development server
+```
+npm run dev
+```
+
+To build your project for production use:
+```
+npm run build
+```
+
 ## Considerations
 - the entry of our files is inside the folder: `src`
-- the webpack folder is to setting webpack
+- the webpack folder is to setting webpack files for development and production
